@@ -1,0 +1,72 @@
+
+.PopUp{
+    position:absolute;
+    top:40px;
+    padding: 2rem;
+   
+    
+
+    background-color: white;
+
+box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+
+    width: auto;
+
+ 
+    border-radius: 1em;
+  
+
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #011627;
+}
+.pu-content-container>h1{
+    font-size: medium;
+}
+.popup-x {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    color: white;
+    background: rgb(245, 122, 122);
+    
+  
+}.popup-x:hover {
+    
+        transform: scale(1.1);
+    }
+
+    .closePoster{
+            background-color: transparent;
+            font-weight: 600;
+            color: black;
+            border: none;
+
+    }
+            .closePoster:hover {
+              color: rgba(54, 67, 72, 0.8);
+            }
+    
+    
+.postQue {
+    border: none;
+    border-radius: 5px;
+    margin-right: 1rem;
+    width: 80px;
+    height: 35px;
+    background-color: #364348;
+    color: #fff;
+}
+
+    .postQue:hover {
+      background-color: rgba(54, 67, 72, 0.8);
+}
+  
+
+

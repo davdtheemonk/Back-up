@@ -1,0 +1,26 @@
+.notifications_bar{
+position:absolute;
+top:50px;
+padding: 2rem;
+right:50px;
+
+
+
+background-color: white;
+border-radius: 5px;
+box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+
+width: 300px;
+
+
+
+
+
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+
+color: #011627;
+}

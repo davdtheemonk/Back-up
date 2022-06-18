@@ -1,0 +1,59 @@
+.content_dash33{
+    background-color: rgb(170, 206, 12);
+    width:70%;
+    height: 10px;
+    margin: auto;
+
+}
+.pop-cont{
+    background-color: white;
+}
+.upload{
+    background-color: white;
+    width:160px;
+    height: 100px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+    align-items: center;
+    margin-left: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.pu-button-container{
+    margin-top: 20px;
+}
+@media screen and (max-width:768px) {
+    .upload,.youtube,.internet{
+    width: 100px;
+    font-size: 12px;
+    }
+    
+}
+.youtube{
+    background-color: white;
+    width:160px;
+    height: 100px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+    align-items: center;
+    margin-left: 10px;
+    justify-content: center;
+    text-align: center;
+
+}
+.internet{
+   background-color: white;
+    width:160px;
+    height: 100px;
+    margin-left: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.content_over_bar{
+    display: flex;
+    flex-direction: row;
+    
+}

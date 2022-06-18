@@ -1,0 +1,176 @@
+
+.papperStyle{
+    padding:20px;
+    height:50vh;
+    width:350px;
+    margin:auto;
+    margin-top:50px;
+}
+.talk-nav{
+  top: 0; left: 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  color: white;
+  box-shadow: 0px 0px 2.2px 1.4px grey;
+  
+
+
+}
+
+.login-image-cont{
+  display:flex;
+  margin-top:100px;
+  justify-content:center;
+  align-items:center;
+
+
+}
+
+.temp_ul{
+  display:flex;
+  flex-direction:row;
+  margin-left: auto;
+  margin-top: 18px;
+  margin-right: 13px;
+  font-size: 13px;
+}
+.talk-menu{ 
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  margin-right: 13px;
+  margin-top:13px;
+  cursor: pointer;
+
+}
+.talk-icon{
+  margin-top: 5px;
+  width: 40px;
+
+}
+@media screen and (max-width: 768px){
+.login-cont{
+  margin:auto;  margin-top: 100px;
+  margin-bottom: 40px;
+  max-width: 400px;
+ 
+
+
+} 
+
+.temp_ul{
+  display:none;
+}
+
+.login-text{
+  margin-top: 70px;
+}
+
+.papperStyle{
+    width:200px
+
+}
+.bg-image{
+  display:none;
+}
+
+}
+@media screen and (min-width: 768px){
+  .login-cont{
+
+   margin: auto;
+    max-height: 750px;
+    max-width: 450px;
+    top: 5px;
+  
+    
+    
+
+}
+.talk-menu{ 
+  display:none;
+  
+}
+.main-icons{
+  margin-bottom: 20px;
+}
+.login-container{
+  display:flex;
+  flex-direction: grid;
+  width: 100%;
+  max-height:auto;
+  overflow:hidden;
+
+
+}
+.login-cont-cont{
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-image{
+  max-width: 450px;
+  margin-left:auto;
+  height:100vh;
+  flex:1;
+
+  bottom: 0px;
+  top: 0px;
+  
+
+}
+
+}
+.customBtn {
+  display: inline-block;
+  background: white;
+  color: #444;
+  width: 100%;
+  border-radius: 5px;
+  border: thin solid #888;
+  box-shadow: 1px 1px 1px grey;
+  white-space: nowrap;
+  margin-top: 20px;
+
+  }
+.customBtn:hover {
+    cursor: pointer;
+  }
+  span.label {
+    font-family: serif;
+    font-weight: normal;
+  }
+  span.icon {
+    background: url('../../public/assets/google.svg') transparent 5px 50% no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 42px;
+    height: 32px;
+  }
+  span.icon-github {
+    background: url('../../public/assets/github.svg') transparent 5px 50% no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 52px;
+    height: 32px;
+  }
+  span.icon-apple {
+    background: url('../../public/assets/mac.png') transparent 5px 50% no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 52px;
+    height: 32px;
+  }
+  span.buttonText {
+    display: inline-block;
+    vertical-align: left;
+    padding-left: 42px;
+    padding-right: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    /* Use the Roboto font that is loaded in the <head> */
+    font-family: 'Roboto', sans-serif;
+  }

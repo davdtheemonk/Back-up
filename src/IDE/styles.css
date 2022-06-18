@@ -1,0 +1,277 @@
+.lef-container{
+  position: relative;
+  flex: 20%;
+  height: 100%;
+  background-color: #12151b;
+}
+.file-explorer{
+  display: flex;
+  height: 40px;
+  background-color: #12151b;
+  flex-direction: row;
+  border-bottom: 1px solid grey;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.file-icon{
+  background-color: white;
+  margin-left: auto;
+  margin-right: 10px;
+}
+.file-explorer>p{
+  margin-left: 5px;
+  color: white;
+}
+.output-nav{
+  display: flex;
+  flex-direction: row;
+
+
+}
+.editor-nav{
+  width: 100%; background-color: #12151b;
+  height: 40px;
+}
+.output-nav-right{
+  display: flex;
+  margin-right: 15px;
+  flex-direction: row;
+  margin-left: auto;
+}
+.output-nav-left>p{
+  margin-left: 10px;
+  font-size: 10px;
+}
+.output-nav-left{
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  margin-right: auto;
+}
+.lef-icon-file{
+  color: white;
+  margin-top: 10px;
+  border-bottom: 2px solid white;
+}
+
+.compiler{
+    height: 100%;
+    width: auto;
+    overflow-y: hidden;
+    background-color: #474747;
+  }
+.lef-container-sett{
+  
+  position: relative;
+  flex: 5%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  background-color: #3a4253;
+
+}
+  .main{
+    display: flex;
+    height: 100%;
+  }
+  .left-container{
+    position: relative;
+    flex: 100%;
+    height: 100%;
+    background-color: #272c3b;
+  }
+  .right-container{
+    flex: 60%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 5px;
+  }
+  .input-box{
+    flex: 50%;
+  }
+  .input-box textarea{
+    font-size: 16px;
+  }
+  .spinner-box{
+    flex: 50%;
+   
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .left-container-cont{
+    display: flex;
+    flex: 70%;
+    flex-direction: column;
+  }
+  .spinner-box img{
+    width: 50px;
+    
+  }
+  .output-box{
+    flex: 60%;
+    height: 100%;
+    background-color: black;
+    overflow-y: auto;
+    color: white;
+    position: relative;
+  }
+  .clear-btn{
+    position: absolute;
+    top: 0px;
+    right: 18px;
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #8b7070;
+    border: none;
+    border-radius: 4px;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .output-box pre{
+    font-size: 15px;
+    white-space: pre-wrap;
+  }
+ .right-container> h4{
+    color: white;
+  }
+  #code-inp{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    background-color: #242424;
+    color: whitesmoke;
+    padding: 5px;
+  }
+  #code-inp:focus{
+    outline: none;
+  }
+  .editor-nav-btns{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    justify-content: space-between;
+
+  }
+
+.invite-btn{
+  position: absolute;
+  top: 5px;
+  right: 18px;
+  width: 80px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: #12151b;
+  border: none;
+  border-radius: 4px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+  .run-btn{
+    position: absolute;
+    top: 5px;
+    right: 32px;
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #12151b;
+    border: none;
+    border-radius: 4px;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .run-btn:active{
+    background-color: #292794;
+  }
+.IDE{
+    position:absolute;
+     
+
+    background-color: rgba(0, 0, 0, 0.2);
+    height: auto;
+    margin-left: 10px;
+    padding: 2rem;
+    width: auto;
+    border-radius:1em;
+    height: auto;
+    height: auto;
+    margin-top: "20px";
+    
+
+  
+    
+box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+
+    
+
+ 
+    
+  
+
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #011627;
+}
+.pu-content-container>h1{
+    font-size: medium;
+}
+.popup-x {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    background: rgb(245, 122, 122);
+    
+  
+}.popup-x:hover {
+    
+        transform: scale(1.1);
+    }
+
+    .closePoster{
+            background-color: transparent;
+            font-weight: 600;
+            color: black;
+            border: none;
+
+    }
+            .closePoster:hover {
+              color: rgba(54, 67, 72, 0.8);
+            }
+    
+    
+.postQue {
+    border: none;
+    border-radius: 5px;
+    margin-right: 1rem;
+    width: 80px;
+    height: 35px;
+    background-color: #364348;
+    color: #fff;
+}
+
+    .postQue:hover {
+      background-color: rgba(54, 67, 72, 0.8);
+}
+  
+
+
